@@ -8,6 +8,8 @@ setup(
     version=__version__,
     license='MIT',
     description='A simple package for DRF errors formatting',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     author='Mikhail Yeremeyev',
     author_email='koenigsley@gmail.com',
     url='https://github.com/koenigsley/djangorestframework-verbose-errors',
