@@ -52,3 +52,7 @@ REST_FRAMEWORK = {
     'EXCEPTION_HANDLER': 'rest_framework_verbose_errors.views.exception_handler'
 }
 ```
+
+## License
+
+[MIT](https://github.com/koenigsley/djangorestframework-verbose-errors/blob/main/LICENSE)
