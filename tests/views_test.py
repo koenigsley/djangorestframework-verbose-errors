@@ -39,7 +39,8 @@ class ViewsTestCase(unittest.TestCase):
         self.assertEqual(expected, response.data)
 
     def test_exception_handler_returns_correct_response_if_detail_is_dict_with_list(self):
-        exc = APIException({'name': ['This field is required', 'This field can not be null']})
+        exc = APIException(
+            {'name': ['This field is required', 'This field can not be null']})
         context = {}
         response = exception_handler(exc, context)
         expected = {
