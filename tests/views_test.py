@@ -5,7 +5,6 @@ from rest_framework.exceptions import APIException
 
 from rest_framework_verbose_errors.views import exception_handler
 
-
 settings.configure()
 
 
