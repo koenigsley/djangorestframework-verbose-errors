@@ -2,6 +2,12 @@
 
 A simple package for DRF errors formatting
 
+## Requirements
+
+- Python 3.6.8 or newer
+- Django 3.2.19 or newer
+- Django Rest Framework 3.14.0 or newer
+
 ## Formatting
 
 This package provides the exception handler that formats handled DRF exceptions into verbose error response
