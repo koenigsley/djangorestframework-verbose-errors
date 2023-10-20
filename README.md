@@ -43,19 +43,21 @@ This package provides the exception handler that formats handled DRF exceptions 
 }
 ```
 
-## Setting up
+## Installation
 
-Install this package using pip
+You can install this package using pip:
 
-```bash
+```shell
 pip install djangorestframework-verbose-errors
 ```
 
-Register the exception handler
+## Configuration
+
+Configure your project in order to use the exception handler:
 
 ```python
 REST_FRAMEWORK = {
-    'EXCEPTION_HANDLER': 'rest_framework_verbose_errors.views.exception_handler'
+    'EXCEPTION_HANDLER': 'rest_framework_verbose_errors.views.exception_handler',
 }
 ```
 
