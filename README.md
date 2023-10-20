@@ -1,5 +1,7 @@
 # Verbose Errors
 
+[![Test](https://github.com/koenigsley/djangorestframework-verbose-errors/actions/workflows/test.yaml/badge.svg)](https://github.com/koenigsley/djangorestframework-verbose-errors/actions/workflows/test.yaml)
+
 A simple package for DRF errors formatting
 
 ## Requirements
